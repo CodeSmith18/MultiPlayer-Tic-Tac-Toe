@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(25, 8, 34);
+    color:white;
+}
+.main_div{
+    margin: 10vh;
+    display: flex;
+     flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45vh;
+    border: 2px solid white;
+    border-radius: 8px;
+    text-align: center;
+    height: 60px;
+    background-color:  rgba(46, 27, 66, 0.616);
+}
+.box{
+
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+.move-detection{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width:50vh;
+    
+
+}
+.left, .right{
+ height: 35px;
+ width:  110px;
+ background-color: rgba(135, 143, 15, 0.158) ;
+ margin: 10px;
+ border-radius: 50px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-weight:bolder;
+ font-size: 22px;
+ border: 2px solid white;
+ 
+}
+.playonline{
+    background-color:rgb(250, 250, 3);
+    font-size : 30px;
+    font-weight: bold;
+    border-radius: 5px;
+    outline: none;
+    padding : 28px;
+    margin-top: 20vh;
+    cursor: pointer;
+    border: none;
+}
+.WFO{
+    overflow: hidden;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: x-large;
+}
+.current-move-circle{
+   background-color: aqua !important;
+}
+
+.current-move-cross{
+    background-color: rgb(186, 27, 53) !important;
+}

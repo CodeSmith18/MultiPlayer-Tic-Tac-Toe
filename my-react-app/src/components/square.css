@@ -1,0 +1,24 @@
+.smallbox{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(46, 27, 66, 0.616);
+    border-radius: 5px;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.smallbox:hover {
+    transform: scale(1.1); /* Scale up the element on hover */
+} 
+.not-allowed{
+    cursor: not-allowed !important;
+}
+.circle-won{
+    background-color: pink;
+}
+.cross-won{
+    background-color: rgb(85, 139, 201);
+}
+.grey{
+    background-color: rgba(128, 128, 128, 0.427);
+}
