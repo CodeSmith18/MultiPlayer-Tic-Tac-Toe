@@ -8,7 +8,7 @@ const { CLIENT_RENEG_LIMIT } = require("tls");
 
 const httpServer = createServer();
 const io = new Server(httpServer, {
-  cors: "http://localhost:5173/",
+  cors: "https://6669f7f0ac27de226c11da3b--multittt.netlify.app/",
 });
 
 
