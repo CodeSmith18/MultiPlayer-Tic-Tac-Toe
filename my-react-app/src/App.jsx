@@ -126,7 +126,7 @@ const App = () => {
     const uname = result.value;
     setUserName(uname);
     console.log(uname);
-    const newsocket = io("http://localhost:4000", {
+    const newsocket = io("https://continued-mel-codesmith-88c66f2d.koyeb.app/", {
       autoConnect: true,
     });
     newsocket?.emit("request_to_play", {
