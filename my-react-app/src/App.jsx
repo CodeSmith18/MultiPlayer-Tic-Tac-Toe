@@ -126,7 +126,7 @@ const App = () => {
     const uname = result.value;
     setUserName(uname);
     console.log(uname);
-    const newsocket = io("multiplayer-tic-tac-toe.ttt.koyeb/", {
+    const newsocket = io("ttt-codesmith-b6be81da.koyeb.app/", {
       autoConnect: true,
     });
     newsocket?.emit("request_to_play", {
